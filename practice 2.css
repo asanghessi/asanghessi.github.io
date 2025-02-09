@@ -1,0 +1,47 @@
+.cropDiv {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border: 7px solid #94ffc9;
+    border-radius: 15px;
+    box-shadow:15px 15px 15px 0 #615f75; 
+    
+}
+
+.cropImg {
+   position: relative;
+    width:450px;
+    height: auto;
+    right: 70px;
+    top: -15px;
+    
+}
+
+.move {
+    right: -100px;
+    bottom: -100px;
+}
+
+h1{
+    color: #4d4d4d;
+    position: relative;
+     top: 90px;
+     left: 190px;
+     text-shadow: 5px 5px 5px #615f75;
+}
+
+.title{
+    margin: 10px;
+    position: absolute;
+    color: #4d4d4d;
+    font-size: 50px;
+    font-weight: 900 !important;   /* 브라우저에서 기본적으로 폰트두께를 정해놓아서 우선순위로 바꾸기 */ 
+    left: 75px;
+    text-shadow: 5px 5px 5px #615f75;
+}
+      
+body{
+    background-color:#ccc9f5;
+}
+
